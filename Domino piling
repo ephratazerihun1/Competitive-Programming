@@ -1,5 +1,5 @@
 m=int(input())
 n=int(input())
 entire=int(m*n)
-ans=entire/2
+ans=entire//2
 print(ans)
