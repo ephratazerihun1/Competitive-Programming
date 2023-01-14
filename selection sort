@@ -1,0 +1,21 @@
+
+class Solution: 
+    def select(self, arr, i):
+        # code here 
+        minidx=i
+        i=i+1
+        
+        return minidx
+    
+    def selectionSort(self, arr,n):
+        #code here
+        for i in range(n):
+            minindex=i
+       
+            for j in range(minindex + 1, n):
+                if arr[j] < arr[minindex]:
+                    minindex = j
+                    
+            (arr[i], arr[minindex]) = (arr[minindex], arr[i])
+        
+        
